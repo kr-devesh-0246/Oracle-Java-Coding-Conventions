@@ -54,7 +54,7 @@ if(condition) //AVOID!
     statement;
 ```
 
-## 5 for Statements
+## 5. for Statements
 A for statement should have the following form:
 ```java
 for (initialization; condition; update) {
@@ -69,7 +69,7 @@ for (initialization; condition; update); // All the work is done in the for loop
 
 - If needed, use separate statements before the for loop (for the initialization clause) or at the end of the loop (for the update clause).
 
-## 6 while Statements
+## 6. while Statements
 A while statement should have the following form: 
 ```java
 while (condition) {
@@ -82,7 +82,7 @@ An empty while statement should have the following form:
 while (condition);
 ```
 
-## 7 do-while Statements
+## 7. do-while Statements
 A do-while statement should have the following form:
 ```java
 do {
@@ -91,7 +91,7 @@ do {
 while (condition) ;
 ```
 
-## 8 switch Statements
+## 8. switch Statements
 A switch statement should have the following form:
 ```java
 switch (condition) {
@@ -113,7 +113,7 @@ Every time a case falls through(doesn't include a break statement), statement wo
 
 Every switch statement should include a default case. This break is the default case is redundant, but it prevents a fall-through error if later another case is added. 
 
-## 9 try-catch Statements
+## 9. try-catch Statements
 A try-catch statement should have teh following format:
 ```java
 try{
@@ -122,5 +122,4 @@ try{
     statements;
 }
 ```
-
 
