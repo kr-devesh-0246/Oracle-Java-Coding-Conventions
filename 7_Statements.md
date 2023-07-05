@@ -10,13 +10,13 @@ if(err) {
     Format.print(System.out, "error"), exit(1); // VERY WRONG!
 }
 ```
-# 2. Compound Statements
+## 2. Compound Statements
 Compound statements contain lists of statements enclosed in braces "{statements}". 
 - The enclosed statements should be indented one more level than the compund statement. 
 - The opening brace should be at the end of the line that begins the compound statement. 
 - Braces are used around all statements, even singletons, when they are part of the control structure. This makes it easier to add statements without accidently introducing bugs due to forgetting to add braces. 
 
-# 3. return Statements
+## 3. return Statements
 A return statement with a value should not use parenthesis unless they make the return value more obvious in some way. 
 ```java
 return;
@@ -24,7 +24,7 @@ return flag;
 return (size ? size : defaultSize); 
 ```
 
-# 4. if, if-else, if-else-if-else Statements
+## 4. if, if-else, if-else-if-else Statements
 The if-else class of statements should have the following form:
 ```java 
 // only if
@@ -54,7 +54,7 @@ if(condition) //AVOID!
     statement;
 ```
 
-# 5 for Statements
+## 5 for Statements
 A for statement should have the following form:
 ```java
 for (initialization; condition; update) {
@@ -69,7 +69,7 @@ for (initialization; condition; update); // All the work is done in the for loop
 
 - If needed, use separate statements before the for loop (for the initialization clause) or at the end of the loop (for the update clause).
 
-# 6 while Statements
+## 6 while Statements
 A while statement should have the following form: 
 ```java
 while (condition) {
@@ -82,7 +82,7 @@ An empty while statement should have the following form:
 while (condition);
 ```
 
-# 7 do-while Statements
+## 7 do-while Statements
 A do-while statement should have the following form:
 ```java
 do {
@@ -91,7 +91,7 @@ do {
 while (condition) ;
 ```
 
-# 8 switch Statements
+## 8 switch Statements
 A switch statement should have the following form:
 ```java
 switch (condition) {
@@ -113,7 +113,7 @@ Every time a case falls through(doesn't include a break statement), statement wo
 
 Every switch statement should include a default case. This break is the default case is redundant, but it prevents a fall-through error if later another case is added. 
 
-# 9 try-catch Statements
+## 9 try-catch Statements
 A try-catch statement should have teh following format:
 ```java
 try{
