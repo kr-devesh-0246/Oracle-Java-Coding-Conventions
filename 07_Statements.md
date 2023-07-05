@@ -87,8 +87,7 @@ A do-while statement should have the following form:
 ```java
 do {
     statements;
-}
-while (condition) ;
+} while (condition) ;
 ```
 
 ## 8. switch Statements
